@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Profile</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='app/static/css/profile.css') }}">
+        {% extends "base.html" %}
+    </head>
+    <body>
+        <div class="all">
+    <div class="tophalf">
+        <div class="pic">
+            <img alt=""  href="{{ url_for('app/static/girl.jpg') }}">
+         </div>
+       <div class="">
+           <h2> Marquita Marquis</h2>
+           <h3> @quita</h3>
+           <h3>Portmore, St.Catherine</h3>
+           <h3>Joined December 2017</h3>
+        </div>
+     </div>
+     <div class="bottomhalf">
+         <div class="paragragh">
+            <p> I am strong, determined young woman who loves web development. I am a student at the University of the West Indies Mona doing a Bachelors of Science Degree in Information Technology. 
+           </div>
+        <div class="details">
+            <div class="d1"> 7 Posts </div>
+            <div class="d2">100 Following </div>
+            <div class="d3"> 250 Followers </div>
+            <button type="submit"> Follow</button>
+        </div>
+          
+     </div>
+    
+ </div>
+    </body>
+    {% endblock %}
+</html>
