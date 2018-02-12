@@ -1,0 +1,29 @@
+.all{
+	border-width:5px;
+	border-style:solid;
+	text-align: center;
+	border-color:green;
+	width:500px;
+	margin:80px 0 0px 300px;
+}
+.tophalf{
+	background-color: green;
+}
+h3, h2{
+	color:white;
+}
+.d1{
+	padding:0 20px;
+	margin:0 300px 0 0 ;
+}
+.d2{
+	padding:0 10px;
+	margin:-15px 90px 10px 0 ;
+}
+.d3{
+	
+	margin:-25px 0 0 150px ;
+}
+button{
+	margin:20px;
+}
